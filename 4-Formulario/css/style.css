@@ -1,0 +1,19 @@
+input, select {
+    padding: 10px;
+    margin:5px;
+}
+.parrafotitulo{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: rgb(0, 162, 255);
+}
+button{
+    border-radius: 15px;
+    background-color: #ffcc0098;
+    color: white;
+    padding: 10px 20px;
+    text-align: end;
+    border: none;
+    font-size: 10px;
+    font-family: cursive;
+}
