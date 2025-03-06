@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- CONTAINER -->
+    <div class="container">
+        <!-- INICIO DEL ROW PRINCIPAL-->
+         <div class="row">
+            <!-- INFORMACION ESTUDIANTE -->
+             <div class="col-md-12">
+                <div class="card mt-4">
+                    <div style="background-color:#2f99db; " class="card-header">
+                        <h2 class="text-white text-center">Información del estudiante</h2>
+                        <button style="float: right;"class="button1">Crear</button>
+                    </div>
+                    <div class="card-body" style="height: 450px; overflow:auto; background-color: #e3fafd;" >
+                    
+                        <!-- ROW 1 -->
+                        <div class="row">
+                        <!-- NOMBRE ALUMNO -->
+                                <div class="col-md-3">
+                                    <div class="card mt-4">
+                                        <div style="background-color:#6db9e7;" class="card-header">
+                                            <h6 class="text-white text-center">Nombre del alumno</h6>
+                                        </div>
+                                        <div class="card-body" >
+                                            <div align="center">
+                                                <input type="text" id="nombre" name="nombre">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        <!-- APELLIDO PATERNO -->
+                                <div class="col-md-3">
+                            <div class="card mt-4">
+                                <div style="background-color:#6db9e7;" class="card-header">
+                                    <h6 class="text-white text-center">Apellido paterno</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div align="center">
+                                        <input type="text" id="nombre" name="nombre">
+                                    </div>
+                                </div>
+                            </div>
+                                </div>
+                        <!-- APELLIDO MATERNO -->
+                                <div class="col-md-3">
+                            <div class="card mt-4">
+                                <div style="background-color:#6db9e7;" class="card-header">
+                                    <h6 class="text-white text-center">Apellido materno</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div align="center">
+                                        <input type="text" id="nombre" name="nombre">
+                                    </div>
+                                </div>
+                            </div>
+                                </div>
+                        <!-- NUMERO DE CONTROL -->
+                                <div class="col-md-3">
+                            <div class="card mt-4">
+                                <div style="background-color:#6db9e7;" class="card-header">
+                                    <h6 class="text-white text-center">Numero de control</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div align="center">
+                                        <input type="text" id="nombre" name="nombre">
+                                    </div>
+                                </div>
+                            </div>
+                                </div>
+                        </div>
+
+                        <!-- ROW 2 -->
+                        <div class="row">
+                        <!-- CARRERA -->
+                            <div class="col-md-4">
+                                <div class="card mt-4">
+                                    <div style="background-color:#6db9e7;" class="card-header">
+                                        <h6 class="text-white text-center">Carrera</h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <div align="center">
+                                            <form>
+                                                <!-- Select para seleccionar la carrera, del mismo tamaño que el input -->
+                                                <select id="carrera" name="carrera" required style="width: 200px;">
+                                                    <option value="opcion">--Selecciona una opcion--</option>
+                                                    <option value="civil">Ingeniería Civil</option>
+                                                    <option value="industrial">Ingeniería Industrial</option>
+                                                    <option value="sistemas">Ingeniería en Sistemas Computacionales</option>
+                                                    <option value="mecatronica">Ingeniería Mecatronica</option>
+                                                    <option value="gestion">Ingeniería en Gestión Empresarial</option>
+                                                    <option value="mecatronica">Licenciatura en Arquitectura</option>
+                                                    <option value="mecatronica">Licenciatura en Administración</option>
+                                                </select>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <!-- SEMESTRE -->
+                            <div class="col-md-4">
+                        <div class="card mt-4">
+                            <div style="background-color:#6db9e7;" class="card-header">
+                                <h6 class="text-white text-center">Semestre</h6>
+                            </div>
+                            <div class="card-body">
+                                <div align="center">
+                                    <input type="text" id="nombre" name="nombre">
+                                </div>
+                            </div>
+                        </div>
+                            </div>
+                        <!-- GRUPO -->
+                            <div class="col-md-4">
+                        <div class="card mt-4">
+                            <div style="background-color:#6db9e7;" class="card-header">
+                                <h6 class="text-white text-center">Grupo</h6>
+                            </div>
+                            <div class="card-body">
+                                <div align="center">
+                                    <input type="text" id="nombre" name="nombre">
+                                </div>
+                            </div>
+                        </div>
+                            </div>
+                        </div>
+
+                        <!-- ROW 3 -->
+                        <div class="row">
+                        <!-- COLONIA -->
+                            <div class="col-md-4">
+                                    <div class="card mt-4">
+                                        <div style="background-color:#6db9e7;" class="card-header">
+                                            <h6 class="text-white text-center">Colonia</h6>
+                                        </div>
+                                        <div class="card-body">
+                                            <div align="center">
+                                                <input type="text" id="nombre" name="nombre">
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        <!-- CALLE -->
+                            <div class="col-md-4">
+                            <div class="card mt-4">
+                                <div style="background-color:#6db9e7;" class="card-header">
+                                    <h6 class="text-white text-center">Calle</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div align="center">
+                                        <input type="text" id="nombre" name="nombre">
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        <!-- CODIGO POSTAL -->
+                            <div class="col-md-4">
+                            <div class="card mt-4">
+                                <div style="background-color:#6db9e7;" class="card-header">
+                                    <h6 class="text-white text-center">Codigo postal</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div align="center">
+                                        <input type="text" id="nombre" name="nombre">
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+         </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+    crossorigin="anonymous"></script>
+</body>
+</html>
